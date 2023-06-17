@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,rgb(207, 149, 159),rgb(248, 198, 207),pink);
+}
+.container{
+    width: 900px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.821);
+    margin: 100px auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: inset 8px 10px 10px white,
+    4px 5px 20px 1px rgba(104, 104, 104, 0.677);
+    font-family: 'Aboreto', cursive;
+}
+.login{
+    display: flex;
+    
+}
+.log-page{
+    width: 50%;
+    height: 90%;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+.log-page span{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    /* margin-right: 190px; */
+}
+.log{
+    background-color: rgb(205, 5, 38);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.img{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: -80px;
+}
+img{
+    width: 100%;
+    mix-blend-mode: darken;
+}
